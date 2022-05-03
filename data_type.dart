@@ -84,7 +84,33 @@ void main(List<String> args) {
   assert(aList.length == 3);
   assert(venichel[0] == 'Car');
 
+  // SET
+  // set in dart id sn unordered collection of unique items.
 
+  // set literal
+  var halogens = {'fluorine', 'chlorine', 'bromine', 'iodione', 'astatine'};
 
+  // empty set
+  var names = <String>{};
 
+  // add item to empty list
+  var elements = <String>{};
+  elements.add('fluorine');
+  elements.addAll(halogens);
+
+  // MAP
+
+  // map is an object that associates keys and values.
+  var gifts = {
+    // Key:    Values
+    'first': 'partidge',
+    'second': 'turtledoves',
+    'fifth': 'golden rings'
+  };
+
+  // create map with map constructor
+  var nobleGases = Map<int, String>();
+  nobleGases[2] = 'helium';
+  nobleGases[10] = 'neon';
+  nobleGases[18] = 'argon';
 }
